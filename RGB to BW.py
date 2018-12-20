@@ -2,7 +2,8 @@
 import cv2
 
 #Absolute path of image to be read. 0 is passed to read it directly as Grayscale image
-gray_img = cv2.imread("C:\\Users\\Abhishek Pawar\\Desktop\\myImage.jpg",0)
+path = "C:\\Users\\Abhishek Pawar\\Desktop\\"
+gray_img = cv2.imread(path + "input.jpg",0)
 
 #function to show images
 cv2.imshow("Grayscale Image",gray_img)
